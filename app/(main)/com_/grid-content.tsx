@@ -39,7 +39,7 @@ export default function GridContentDashboard() {
     return <section className="grid grid-cols-1 xl:grid-cols-3 gap-6">
         {/* Left: Continue + Today */}
         <div className="xl:col-span-2 flex flex-col gap-6">
-            <Card className="bg-white/30">
+            <Card className="bg-white/30 gap-4">
                 <div className="justify-between flex items-center">
                     <CardTitle>Continue Where You Left off</CardTitle>
                     <Button >View More</Button>
