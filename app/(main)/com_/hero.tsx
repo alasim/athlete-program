@@ -22,12 +22,12 @@ export default function HeroDashboard() {
             {/* Total Athletes */}
             <div className="bg-white/90 p-4 h-[78px] px-5 rounded-2xl flex items-center gap-4">
                 <div className="w-10 h-10 rounded-full glass-card flex items-center justify-center">
-                    <Image src="/icons/users.svg" alt="Total Athletes" width={15} height={15} />
+                    <Image src="/icons/users.svg" alt="Total Athletes" width={20} height={20} />
                 </div>
                 <div>
-                    <div className="text-black/70 font-medium">Total Athletes</div>
+                    <div className="text-black/70 font-medium leading-[22.5px] text-xs">Total Athletes</div>
                     <div className="flex items-end gap-2">
-                        <div className="text-black text-xl font-semibold">65</div>
+                        <div className="text-black text-xl font-semibold leading-[30px]">65</div>
                         <div className="flex gap-1 pb-1">
                             <span className="text-[#38AA4B] text-[11px]">+12</span> <Image width={14} height={14} src={'/icons/up-rise.svg'} alt="" />
                         </div>
@@ -37,17 +37,17 @@ export default function HeroDashboard() {
             {/* Projected Ranking */}
             <div className="bg-white/90 p-4 px-5 h-[78px] rounded-2xl flex items-center gap-4">
                 <div className="w-10 h-10 rounded-full glass-card flex items-center justify-center">
-                    <Image src="/icons/rank.svg" alt="Total Athletes" width={15} height={15} />
+                    <Image src="/icons/rank.svg" alt="Total Athletes" width={20} height={20} />
                 </div>
                 <div>
-                    <div className="text-black/70 font-medium">Projected Ranking</div>
-                    <div className="text-black text-xl font-semibold">#5</div>
+                    <div className="text-black/70 font-medium leading-[22.5px] text-xs">Projected Ranking</div>
+                    <div className="text-black text-xl font-semibold leading-[30px]">#5</div>
                 </div>
             </div>
             {/* Consistency Score */}
             <div className="bg-white/90 p-4 px-5 justify-between h-[78px] w-[263px] rounded-2xl flex items-center gap-4">
                 <div>
-                    <div className="text-black font-semibold text-xs">Consistency Score</div>
+                    <div className="text-black font-semibold leading-[22.5px] text-xs">Consistency Score</div>
                     <div className="text-black/70 text-[10px]">last 30 days</div>
                 </div>
                 <Image src="/progress-blue.svg" alt="Total Athletes" width={65} height={65} />
@@ -55,21 +55,21 @@ export default function HeroDashboard() {
             {/* Weekly Progress */}
             <div className="bg-white/90 w-[263px] justify-between h-[78px] p-4 px-5 rounded-2xl flex items-center gap-4">
                 <div>
-                    <div className="text-black font-semibold text-xs">Weekly Progress</div>
+                    <div className="text-black font-semibold leading-[22.5px] text-xs">Weekly Progress</div>
                 </div>
                 <Image src="/progress-green.svg" alt="Total Athletes" width={65} height={65} />
             </div>
             {/* Active Streak */}
             <div className="bg-white/90 h-[180px] w-[317px] p-4 px-5 rounded-2xl relative">
                 <div className="flex justify-between items-center">
-                    <div className="text-black font-semibold text-xs">Active Streak</div>
+                    <div className="text-black font-semibold leading-[22.5px] text-xs">Active Streak</div>
                     <div className="flex justify-between gap-1 items-center">
                         <Button className="orange-button border-none px-3 text-xs">Hot Streek</Button>
                         <Image src="/icons/fire-icon.png" alt="fire" width={40} height={40} />
                     </div>
                 </div>
                 <div className="mt-2">
-                    <div className="text-[28px] font-semibold text-black leading-none">12 Days</div>
+                    <div className="text-[28px] font-semibold text-black leading-[37.5px]">12 Days</div>
                     <div className="text-black/80 font-medium mt-0.5 text-[10px]">Next milestone: 15 days</div>
                 </div>
 

@@ -38,15 +38,15 @@ export const AppHeader = () => {
         <div className="w-px h-6 border-r border-black/10" />
 
         <div className="flex gap-[15px] items-center">
-          <button className="relative w-10 h-10 grid place-items-center rounded-full glass-card bg-white/30">
+          <button className="relative hover:bg-white/50 transition-all duration-300 w-10 cursor-pointer h-10 grid place-items-center rounded-full glass-card bg-white/30">
             <Image src="/icons/message-notification-02.svg" alt="messages" width={20} height={20} />
           </button>
-          <button className="relative w-10 h-10 grid place-items-center rounded-full glass-card bg-white/30 ">
+          <button className="relative hover:bg-white/50 transition-all duration-300 w-10 cursor-pointer h-10 grid place-items-center rounded-full glass-card bg-white/30 ">
 
             <Image src="/icons/bell.svg" alt="notifications" width={20} height={20} />
             <div className="w-2.5 h-2.5 flex absolute top-2 right-2 items-center justify-center rounded-full bg-[#F03] border-[0.4px] border-[#E21212] text-[6px] text-white">4</div>
           </button>
-          <div className="w-10 h-10 rounded-full bg-muted overflow-hidden" >
+          <div className="hover:bg-white/50 transition-all duration-300 w-10 cursor-pointer h-10 rounded-full bg-muted overflow-hidden" >
             <Image src="/icons/avater-image.png" alt="avatar" width={40} height={40} />
           </div>
         </div>
