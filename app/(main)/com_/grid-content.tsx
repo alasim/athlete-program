@@ -61,7 +61,7 @@ export default function GridContentDashboard() {
                                     </div>
                                     <CardHeader className="h-[74px]">
                                         <CardTitle className="text-sm font-medium">{item.title}</CardTitle>
-                                        <Progress value={item.complete} className="w-full" />
+                                        <Progress value={item.complete} className="w-full h-[7px]" />
                                         <CardDescription className="flex justify-between">
                                             <div className="flex items-center gap-1">
                                                 <div className="w-3 h-3 blue-box-gradient-top-border rounded" /> 70% Complete</div>
