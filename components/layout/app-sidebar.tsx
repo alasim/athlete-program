@@ -82,15 +82,15 @@ export const AppSidebar = () => {
             <div className="flex flex-col gap-4 items-center">
                 {sidebarItems.map((item, i) => {
 
-                    return <>
+                    return <div key={item.Group} className="flex flex-col gap-4">
                         {item.children.map((child, j) => (
                             <div key={child.icon} className={cn("flex justify-center items-center w-10 h-10 cursor-pointer hover:bg-white/30 rounded-lg", child.icon == '/icons/home.svg' && "blue-gradient")}>
                                 <Image alt={child.label} width={20} height={20} src={child.icon} />
                             </div>
                         ))}
-                        {i < sidebarItems.length - 1 && <hr className="border-px border-black/10 w-full" />}
+                        {i < sidebarItems.length - 1 && <hr className="border-px inline-block border-black/10 w-full" />}
                         {/* {i < sidebarItems.length -1 && <hr className="my-4 w-full border-t border-white/20" />} */}
-                    </>
+                    </div>
                 })}
             </div>
         </div>
